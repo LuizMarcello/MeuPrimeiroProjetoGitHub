@@ -3,10 +3,15 @@
 namespace AloGitHub
 {
     class Program
-    {
+    { 
+        static void Escrevenatela()
+        {
+            Console.WriteLine("Segundo teste com o github");
+        }
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Primeiro teste com o github");
+            Escrevenatela();
             Console.ReadKey();
         }
     }
