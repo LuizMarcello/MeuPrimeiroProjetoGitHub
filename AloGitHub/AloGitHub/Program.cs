@@ -9,10 +9,16 @@ namespace AloGitHub
             Console.WriteLine(txt);
         }
 
+        static void Escrevenatela2(string txt)
+        {
+            Console.WriteLine(txt);
+        }
+
         static void Main(string[] args)
         {
-            Escrevenatela("Minha terceira alteração no programa");
+            Escrevenatela("Primeiro teste com o github");
             Console.ReadKey();
         }
     }
 }
+            
