@@ -11,12 +11,7 @@ namespace AloGitHub
 
         static void Escrevenatela2(string txt)
         {
-            Escrevenatela(txt);
-        }
-
-        static void Escrevenatela3(string txt)
-        {
-            Escrevenatela2(txt);
+            Console.WriteLine(txt);
         }
 
         static void Main(string[] args)
